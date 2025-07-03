@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.escarletsforest.app.ui.home.HomeFragment"
+        android:label="@string/nav_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_map"
+        android:name="com.escarletsforest.app.ui.map.WorldMapFragment"
+        android:label="@string/nav_map"
+        tools:layout="@layout/fragment_world_map" />
+
+    <fragment
+        android:id="@+id/navigation_my_plants"
+        android:name="com.escarletsforest.app.ui.plants.MyPlantsFragment"
+        android:label="@string/nav_my_plants"
+        tools:layout="@layout/fragment_my_plants" />
+
+    <fragment
+        android:id="@+id/navigation_community"
+        android:name="com.escarletsforest.app.ui.community.CommunityFragment"
+        android:label="@string/nav_community"
+        tools:layout="@layout/fragment_community" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.escarletsforest.app.ui.profile.ProfileFragment"
+        android:label="@string/nav_profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/addPlantFragment"
+        android:name="com.escarletsforest.app.ui.plants.AddPlantFragment"
+        android:label="Agregar Planta"
+        tools:layout="@layout/fragment_add_plant" />
+
+    <fragment
+        android:id="@+id/plantDetailFragment"
+        android:name="com.escarletsforest.app.ui.plants.PlantDetailFragment"
+        android:label="Detalle de Planta"
+        tools:layout="@layout/fragment_plant_detail">
+        <argument
+            android:name="plantId"
+            app:argType="long" />
+    </fragment>
+
+    <!-- Acciones globales -->
+    <action
+        android:id="@+id/action_global_addPlantFragment"
+        app:destination="@id/addPlantFragment"
+        app:launchSingleTop="true" />
+
+    <action
+        android:id="@+id/action_global_plantDetailFragment"
+        app:destination="@id/plantDetailFragment"
+        app:launchSingleTop="true" />
+
+</navigation> 

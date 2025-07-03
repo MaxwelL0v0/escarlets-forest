@@ -1,0 +1,7 @@
+Quiero crear una aplicación para android con afán de reducir los niveles de CO2 globales. La idea es que cada persona que descargue la
+app pueda plantar un árbol afuera o una planta dentro de casa y luego pueda registrarla en la app con un nombre propio, como si de una
+mascota se tratara. Así, la propuesta de valor es que estarás ayudando a crear un nuevo bosque que permea todo el mundo y conecta
+a la gente. Aunque fomentamos mucho la plantación de árboles, igual estamos a favor de generar un registro mundial de especies, especialmente
+especies protegidas. Trabajar con universidades que impartan ingeniería forestal, organizaciones, partners, etc. Los convenios con
+universidades nos ayudarán al reconocimiento de especies. La aplicación se debe llamar Escarlet's Forest Mi idea es que también haya un mapa mundi interactivo donde la gente pueda enterarse de las especies que se plantan
+en diferentes partes del mundo.

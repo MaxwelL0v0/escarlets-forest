@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Editar perfil"
+        android:textAppearance="@style/TextAppearance.EscarletsForest.Headline6"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="16dp"/>
+
+    <ImageView
+        android:id="@+id/iv_avatar_preview"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/ic_profile"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btn_choose_avatar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Elegir avatar ecológico"/>
+
+    <Button
+        android:id="@+id/btn_upload_avatar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Subir imagen desde galería"/>
+
+    <EditText
+        android:id="@+id/et_edit_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre de usuario"/>
+
+    <Button
+        android:id="@+id/btn_save_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar cambios"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout> 

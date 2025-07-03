@@ -1,0 +1,30 @@
+{
+  "name": "escarlets-forest",
+  "version": "1.0.0",
+  "description": "Aplicación Android para reducir CO2 mediante plantación de árboles",
+  "main": "index.js",
+  "scripts": {
+    "firebase:emulators": "firebase emulators:start",
+    "firebase:deploy": "firebase deploy",
+    "firebase:rules": "firebase deploy --only firestore:rules",
+    "firebase:storage": "firebase deploy --only storage",
+    "build:android": "./gradlew build",
+    "test:android": "./gradlew test"
+  },
+  "keywords": [
+    "android",
+    "firebase",
+    "environment",
+    "trees",
+    "co2",
+    "kotlin"
+  ],
+  "author": "Escarlet's Forest Team",
+  "license": "MIT",
+  "devDependencies": {
+    "firebase-tools": "^12.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+} 

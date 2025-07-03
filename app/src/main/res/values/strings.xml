@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Escarlet\'s Forest</string>
+    
+    <!-- Navegación -->
+    <string name="nav_home">Inicio</string>
+    <string name="nav_map">Mapa Mundial</string>
+    <string name="nav_my_plants">Mis Plantas</string>
+    <string name="nav_profile">Perfil</string>
+    <string name="nav_community">Comunidad</string>
+    
+    <!-- Pantalla de inicio -->
+    <string name="welcome_message">¡Bienvenido a Escarlet\'s Forest! Únete a la comunidad que está cambiando el mundo, planta vida y deja tu huella verde. ¡Juntos podemos lograr un planeta más sano!</string>
+    <string name="plant_new_tree">Plantar Nuevo Árbol</string>
+    <string name="add_indoor_plant">Agregar Planta Interior</string>
+    <string name="total_plants_planted">Total de plantas plantadas</string>
+    <string name="co2_reduced">CO2 reducido</string>
+    <string name="global_impact">Impacto Global</string>
+    
+    <!-- Registro de plantas -->
+    <string name="plant_name">Nombre de la planta</string>
+    <string name="plant_species">Especie</string>
+    <string name="plant_location">Ubicación</string>
+    <string name="plant_date">Fecha de plantación</string>
+    <string name="plant_photo">Foto de la planta</string>
+    <string name="plant_notes">Notas adicionales</string>
+    <string name="save_plant">Guardar Planta</string>
+    <string name="plant_saved_successfully">¡Planta guardada exitosamente!</string>
+    
+    <!-- Mapa mundial -->
+    <string name="world_map">Mapa Mundial</string>
+    <string name="plants_nearby">Plantas cercanas</string>
+    <string name="species_discovered">Especies descubiertas</string>
+    <string name="filter_by_species">Filtrar por especie</string>
+    <string name="show_my_plants">Mostrar mis plantas</string>
+    
+    <!-- Perfil -->
+    <string name="my_profile">Mi Perfil</string>
+    <string name="plants_planted">Plantas plantadas</string>
+    <string name="trees_planted">Árboles plantados</string>
+    <string name="indoor_plants">Plantas de interior</string>
+    <string name="co2_contribution">Contribución de CO2</string>
+    <string name="achievements">Logros</string>
+    <string name="edit_profile">Editar perfil</string>
+    <string name="settings">Configuración</string>
+    <string name="logout">Cerrar sesión</string>
+    
+    <!-- Comunidad -->
+    <string name="community">Comunidad</string>
+    <string name="global_forest">Bosque Global</string>
+    <string name="species_database">Base de Datos de Especies</string>
+    <string name="university_partners">Socios Universitarios</string>
+    <string name="conservation_projects">Proyectos de Conservación</string>
+    
+    <!-- Autenticación -->
+    <string name="login">Iniciar sesión</string>
+    <string name="register">Registrarse</string>
+    <string name="email">Correo electrónico</string>
+    <string name="password">Contraseña</string>
+    <string name="confirm_password">Confirmar contraseña</string>
+    <string name="forgot_password">¿Olvidaste tu contraseña?</string>
+    <string name="login_successful">Inicio de sesión exitoso</string>
+    <string name="registration_successful">Registro exitoso</string>
+    
+    <!-- Mensajes -->
+    <string name="loading">Cargando...</string>
+    <string name="error_occurred">Ocurrió un error</string>
+    <string name="try_again">Intentar de nuevo</string>
+    <string name="cancel">Cancelar</string>
+    <string name="ok">Aceptar</string>
+    <string name="yes">Sí</string>
+    <string name="no">No</string>
+    
+    <!-- Permisos -->
+    <string name="permission_camera_required">Se requiere permiso de cámara para tomar fotos</string>
+    <string name="permission_location_required">Se requiere permiso de ubicación para registrar la ubicación de la planta</string>
+    <string name="permission_storage_required">Se requiere permiso de almacenamiento para guardar fotos</string>
+    
+    <!-- Notificaciones -->
+    <string name="notification_plant_reminder">¡Es hora de cuidar tu planta!</string>
+    <string name="notification_new_species">Nueva especie descubierta cerca de ti</string>
+    <string name="notification_achievement">¡Nuevo logro desbloqueado!</string>
+    
+    <!-- Logros -->
+    <string name="achievement_first_plant">Primera Planta</string>
+    <string name="achievement_first_plant_desc">Plantaste tu primera planta</string>
+    <string name="achievement_tree_planter">Plantador de Árboles</string>
+    <string name="achievement_tree_planter_desc">Plantaste 10 árboles</string>
+    <string name="achievement_species_collector">Coleccionista de Especies</string>
+    <string name="achievement_species_collector_desc">Registraste 5 especies diferentes</string>
+    <string name="achievement_global_contributor">Contribuyente Global</string>
+    <string name="achievement_global_contributor_desc">Redujiste 100kg de CO2</string>
+    
+    <!-- Especies comunes -->
+    <string name="species_oak">Roble</string>
+    <string name="species_pine">Pino</string>
+    <string name="species_maple">Arce</string>
+    <string name="species_birch">Abedul</string>
+    <string name="species_monstera">Monstera</string>
+    <string name="species_ficus">Ficus</string>
+    <string name="species_snake_plant">Lengua de suegra</string>
+    <string name="species_peace_lily">Lirio de la paz</string>
+    <string name="species_unknown">Especie desconocida</string>
+    
+    <!-- Información -->
+    <string name="about_app">Acerca de la App</string>
+    <string name="about_escarlet">Esta aplicación fue creada con el objetivo de crear un bosque global virtual que conecte a personas de todo el mundo y ayude a reducir los niveles de CO2.</string>
+    <string name="version">Versión</string>
+    <string name="privacy_policy">Política de privacidad</string>
+    <string name="terms_of_service">Términos de servicio</string>
+    <string name="contact_us">Contáctanos</string>
+    <string name="default_web_client_id">AQUÍ_TU_CLIENT_ID</string>
+</resources> 
